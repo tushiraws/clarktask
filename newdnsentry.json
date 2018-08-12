@@ -1,0 +1,18 @@
+{
+    "Comment": "Update record to reflect new IP address of home router",
+    "Changes": [
+        {
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+                "Name": "clark.k8s.tushierpruthi.de.",
+                "Type": "CNAME",
+                "TTL": 300,
+                "ResourceRecords": [
+                    {
+                        "Value": "a6415a0279d5711e8bb9102097a55d73-b179e4552ad8b09d.elb.us-east-2.amazonaws.com"
+                    }
+                ]
+            }
+        }
+    ]
+}
