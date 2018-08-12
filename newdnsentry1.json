@@ -1,15 +1,15 @@
 {
-    "Comment": "Update the load balancer url to point a user friendly dns string",
+    "Comment": "Update record to reflect new IP address of home router",
     "Changes": [
         {
-            "Action": "UPSERT",
+            "Action": "CREATE",
             "ResourceRecordSet": {
                 "Name": "clark.k8s.tushierpruthi.de.",
                 "Type": "CNAME",
                 "TTL": 300,
                 "ResourceRecords": [
                     {
-                        "Value": "a6415a0279d5711e8bb9102097a55d73-b179e4552ad8b09d.elb.us-east-2.amazonaws.com"
+                        "Value": "a0c355c919e1b11e8be90020c7a68c12-6646caadb492b879.elb.us-east-2.amazonaws.com"
                     }
                 ]
             }
