@@ -6,7 +6,7 @@ metadata:
   labels:
     app: guestbook
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     app: guestbook
   template:
