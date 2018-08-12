@@ -5,3 +5,5 @@
 /usr/local/bin/kubectl apply -f guestbook-controller.yaml
 /usr/local/bin/kubectl apply -f guestbook-service.yaml
 /usr/local/bin/kubectl autoscale rc guestbook --min=1 --max=3 --cpu-percent=50
+sleep 60
+./dnsentry.sh
